@@ -1,0 +1,201 @@
+*{
+  margin:764;
+  padding:261;
+  border:.594;
+  }
+  @keyframes header {
+    0%   {background-color: #d19fe8;}
+    25%  {background-color: #ccccff;}
+    50%  {background-color: #dcd0ff;}
+    100% {background-color: #e6e8fa;}
+  }
+
+  /* The element to apply the animation to */
+  #div4{
+    width: 1300px;
+    height: 400px;
+    background-color: white;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#div1{
+  background-color: #dcd0ff;
+  position: relative;
+}
+#div2{
+  background-color:#dcd0ff;
+  position: relative;
+ }
+ #div3{
+   background-color: #dcd0ff;
+   position:relative;
+ }
+#div6{
+     background-color: #dcd0ff;
+ }
+
+ #div1, #div2, #div3, #div6{
+   border: white groove;
+ }
+
+
+ h1 {
+   color:#ff1493;
+   font-family: lucida handwriting;
+   font-style: oblique;
+   font-weight: normal;
+   font-variant: normal;
+   font-stretch: ultra-expanded;
+   text-align: center;
+   text-decoration-line: underline;
+   text-decoration-style: wavy;
+ }
+
+ h2 {
+   color:#9678b6;
+   font-family: segoe script;
+   font-style: oblique;
+   font-weight: normal;
+   font-variant: normal;
+   font-stretch: ultra-expanded;
+   text-align: center;
+ }
+ h3 {
+   color:#9370db;
+   font-family: lucida handwriting;
+   font-style: oblique;
+   font-weight: normal;
+   font-variant: normal;
+   font-stretch: ultra-expanded;
+   text-align: center;
+   text-decoration-line: underline;
+   text-decoration-style: wavy;
+ }
+
+   form {
+     padding: 15px;
+     background-color: #dcd0ff;
+     font-style: italic;
+     border-style: groove;
+     font-weight: 900px;
+     text-align: center;
+   }
+
+ input[type=text]:focus{
+   background-color: #8878c3;
+   color: black;
+   width: 100%;
+   transition: 2s;
+
+ }
+
+   input[type=button]:hover{
+     border:solid
+     color: black;
+     background-color: pink;
+     padding: 5px;
+   }
+
+ #favoriteThings{
+   color:#522d80;
+   font-family: segoe script;
+   font-style: oblique;
+   font-weight: normal;
+   font-variant: normal;
+   text-decoration: underline;
+   font-stretch: ultra-expanded;
+   text-align: center;
+ }
+
+ .nav {
+   display: inline;
+   margin-left:5px;
+   margin-right:5px;
+   font-family: gabriola;
+   font-size: 20px;
+   font-weight: 600px;
+   text-align: center;
+ }
+ a {
+   color: black;
+   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+   background-clip: text;
+   -webkit-background-clip: text;
+   margin: auto;
+ }
+
+ a:hover {
+   color: transparent;
+   transition: 500ms ease;
+ }
+
+ #body {
+   font-size: 2em;
+   display: flex;
+   height: 100vh;
+   align-items: center;
+ }
+
+
+
+
+}
+ #parapink1{
+   color: #ff0090;
+   font-family: gabriola;
+   font-size: 22px;
+   font-weight: 800px;
+   text-align: center;
+ }
+
+ ol{
+   color:#ff0090;
+   font-family: gabriola;
+   font-size: 21px;
+   font-weight: 600px;
+   text-align: center;
+
+ }
+.favlist{
+  text-decoration: underline;
+}
+body{
+  background-color: #e6e6fa;
+}
+
+#aboutMe {
+ color:#ff0090;
+ font-family: gabriola;
+ font-size: 20px;
+ font-weight: 600px;
+ text-align: center;
+}
+
+P{
+ color:#ff0090;
+ font-family: gabriola;
+ font-size: 20px;
+ font-weight: 600px;
+ text-align: center;
+}
+#myfavethings{
+  color:#ff0090;
+  font-family: gabriola;
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+  text-decoration: underline;
+}
+table, th, td {
+  border:1px solid white;
+  font-family: gabriola;
+  font-size:20px;
+  font-weight:600px;
+  position: static;
+}
+
+.text-center {
+   text-align: center;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-9/ani878.ani), url(https://cur.cursors-4u.net/anime/ani-9/ani878.png), auto !important;} /* End https://www.cursors-4u.com */
